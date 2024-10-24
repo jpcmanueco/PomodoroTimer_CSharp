@@ -31,7 +31,7 @@
             components = new System.ComponentModel.Container();
             Startbutton = new Button();
             Temporizador = new System.Windows.Forms.Timer(components);
-            label1 = new Label();
+            Timerlabel = new Label();
             menuStrip1 = new MenuStrip();
             aboutToolStripMenuItem = new ToolStripMenuItem();
             aboutDeveloperToolStripMenuItem = new ToolStripMenuItem();
@@ -44,7 +44,8 @@
             // 
             // Startbutton
             // 
-            Startbutton.Location = new Point(64, 27);
+            Startbutton.Anchor = AnchorStyles.None;
+            Startbutton.Location = new Point(58, 27);
             Startbutton.Name = "Startbutton";
             Startbutton.Size = new Size(75, 23);
             Startbutton.TabIndex = 0;
@@ -55,15 +56,17 @@
             // 
             Temporizador.Enabled = true;
             // 
-            // label1
+            // Timerlabel
             // 
-            label1.AutoSize = true;
-            label1.Font = new Font("Segoe UI", 26F);
-            label1.Location = new Point(43, 51);
-            label1.Name = "label1";
-            label1.Size = new Size(112, 47);
-            label1.TabIndex = 1;
-            label1.Text = "label1";
+            Timerlabel.Anchor = AnchorStyles.None;
+            Timerlabel.AutoSize = true;
+            Timerlabel.Font = new Font("Segoe UI", 26F);
+            Timerlabel.Location = new Point(44, 51);
+            Timerlabel.Name = "Timerlabel";
+            Timerlabel.Size = new Size(104, 47);
+            Timerlabel.TabIndex = 1;
+            Timerlabel.Text = "00:00";
+            Timerlabel.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // menuStrip1
             // 
@@ -71,7 +74,7 @@
             menuStrip1.Items.AddRange(new ToolStripItem[] { aboutToolStripMenuItem });
             menuStrip1.Location = new Point(0, 0);
             menuStrip1.Name = "menuStrip1";
-            menuStrip1.Size = new Size(187, 24);
+            menuStrip1.Size = new Size(184, 24);
             menuStrip1.TabIndex = 2;
             menuStrip1.Text = "menuStrip1";
             // 
@@ -85,31 +88,34 @@
             // aboutDeveloperToolStripMenuItem
             // 
             aboutDeveloperToolStripMenuItem.Name = "aboutDeveloperToolStripMenuItem";
-            aboutDeveloperToolStripMenuItem.Size = new Size(180, 22);
+            aboutDeveloperToolStripMenuItem.Size = new Size(162, 22);
             aboutDeveloperToolStripMenuItem.Text = "About developer";
             // 
             // button2
             // 
-            button2.Location = new Point(78, 126);
+            button2.Anchor = AnchorStyles.None;
+            button2.Location = new Point(76, 126);
             button2.Name = "button2";
-            button2.Size = new Size(50, 23);
+            button2.Size = new Size(47, 23);
             button2.TabIndex = 3;
             button2.Text = "Pause";
             button2.UseVisualStyleBackColor = true;
             // 
             // button3
             // 
-            button3.Location = new Point(131, 126);
+            button3.Anchor = AnchorStyles.None;
+            button3.Location = new Point(129, 126);
             button3.Name = "button3";
-            button3.Size = new Size(50, 23);
+            button3.Size = new Size(47, 23);
             button3.TabIndex = 4;
             button3.Text = "Stop";
             button3.UseVisualStyleBackColor = true;
             // 
             // checkBox1
             // 
+            checkBox1.Anchor = AnchorStyles.None;
             checkBox1.AutoSize = true;
-            checkBox1.Location = new Point(43, 101);
+            checkBox1.Location = new Point(56, 101);
             checkBox1.Name = "checkBox1";
             checkBox1.Size = new Size(83, 19);
             checkBox1.TabIndex = 5;
@@ -118,7 +124,9 @@
             // 
             // domainUpDown1
             // 
-            domainUpDown1.Location = new Point(12, 126);
+            domainUpDown1.Anchor = AnchorStyles.None;
+            domainUpDown1.Items.Add("");
+            domainUpDown1.Location = new Point(10, 126);
             domainUpDown1.Name = "domainUpDown1";
             domainUpDown1.Size = new Size(60, 23);
             domainUpDown1.TabIndex = 6;
@@ -126,20 +134,21 @@
             // 
             // PomodoroTimer
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
-            AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(187, 161);
+            AutoScaleMode = AutoScaleMode.None;
+            ClientSize = new Size(184, 161);
             Controls.Add(domainUpDown1);
             Controls.Add(checkBox1);
             Controls.Add(button3);
             Controls.Add(button2);
-            Controls.Add(label1);
+            Controls.Add(Timerlabel);
             Controls.Add(Startbutton);
             Controls.Add(menuStrip1);
             MainMenuStrip = menuStrip1;
             MaximizeBox = false;
+            MaximumSize = new Size(200, 200);
             MdiChildrenMinimizedAnchorBottom = false;
             MinimizeBox = false;
+            MinimumSize = new Size(200, 200);
             Name = "PomodoroTimer";
             ShowIcon = false;
             Text = "Pomodoro Timer";
@@ -153,7 +162,7 @@
 
         private Button Startbutton;
         private System.Windows.Forms.Timer Temporizador;
-        private Label label1;
+        private Label Timerlabel;
         private MenuStrip menuStrip1;
         private ToolStripMenuItem aboutToolStripMenuItem;
         private ToolStripMenuItem aboutDeveloperToolStripMenuItem;

@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\retiq\\Documents\\Proyectos\\PomodoroTImer_CSharp\\PomodoroTImer_CSharp.csproj",
+      "projectUniqueName": "C:\\Users\\retiq\\Documents\\GitHub\\PomodoroTimer_CSharp\\PomodoroTImer_CSharp.csproj",
       "projectName": "PomodoroTImer_CSharp",
-      "projectPath": "C:\\Users\\retiq\\Documents\\Proyectos\\PomodoroTImer_CSharp\\PomodoroTImer_CSharp.csproj",
+      "projectPath": "C:\\Users\\retiq\\Documents\\GitHub\\PomodoroTimer_CSharp\\PomodoroTImer_CSharp.csproj",
       "packagesPath": "C:\\Users\\retiq\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\retiq\\Documents\\Proyectos\\PomodoroTImer_CSharp\\obj\\",
+      "outputPath": "C:\\Users\\retiq\\Documents\\GitHub\\PomodoroTimer_CSharp\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\retiq\\AppData\\Roaming\\NuGet\\NuGet.Config",
