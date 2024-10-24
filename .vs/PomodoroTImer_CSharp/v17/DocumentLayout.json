@@ -1,0 +1,70 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\retiq\\Documents\\Proyectos\\PomodoroTImer_CSharp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DC834D9D-604C-428F-803A-19F26747C09A}|PomodoroTImer_CSharp.csproj|c:\\users\\retiq\\documents\\proyectos\\pomodorotimer_csharp\\pomodorotimer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{DC834D9D-604C-428F-803A-19F26747C09A}|PomodoroTImer_CSharp.csproj|solutionrelative:pomodorotimer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DC834D9D-604C-428F-803A-19F26747C09A}|PomodoroTImer_CSharp.csproj|C:\\Users\\retiq\\Documents\\Proyectos\\PomodoroTImer_CSharp\\pomodorotimer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DC834D9D-604C-428F-803A-19F26747C09A}|PomodoroTImer_CSharp.csproj|solutionrelative:pomodorotimer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DC834D9D-604C-428F-803A-19F26747C09A}|PomodoroTImer_CSharp.csproj|C:\\Users\\retiq\\Documents\\Proyectos\\PomodoroTImer_CSharp\\pomodorotimer.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DC834D9D-604C-428F-803A-19F26747C09A}|PomodoroTImer_CSharp.csproj|solutionrelative:pomodorotimer.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PomodoroTimer.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\retiq\\Documents\\Proyectos\\PomodoroTImer_CSharp\\PomodoroTimer.Designer.cs",
+              "RelativeDocumentMoniker": "PomodoroTimer.Designer.cs",
+              "ToolTip": "C:\\Users\\retiq\\Documents\\Proyectos\\PomodoroTImer_CSharp\\PomodoroTimer.Designer.cs",
+              "RelativeToolTip": "PomodoroTimer.Designer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAIAAAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-24T15:25:11.374Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PomodoroTimer.cs",
+              "DocumentMoniker": "C:\\Users\\retiq\\Documents\\Proyectos\\PomodoroTImer_CSharp\\PomodoroTimer.cs",
+              "RelativeDocumentMoniker": "PomodoroTimer.cs",
+              "ToolTip": "C:\\Users\\retiq\\Documents\\Proyectos\\PomodoroTImer_CSharp\\PomodoroTimer.cs",
+              "RelativeToolTip": "PomodoroTimer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-24T15:24:46.672Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PomodoroTimer.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\retiq\\Documents\\Proyectos\\PomodoroTImer_CSharp\\PomodoroTimer.cs",
+              "RelativeDocumentMoniker": "PomodoroTimer.cs",
+              "ToolTip": "C:\\Users\\retiq\\Documents\\Proyectos\\PomodoroTImer_CSharp\\PomodoroTimer.cs [Dise\u00F1o]",
+              "RelativeToolTip": "PomodoroTimer.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-24T15:22:18.775Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

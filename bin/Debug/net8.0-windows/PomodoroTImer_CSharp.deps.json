@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "PomodoroTImer_CSharp/1.0.0": {
+        "runtime": {
+          "PomodoroTImer_CSharp.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "PomodoroTImer_CSharp/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
