@@ -35,7 +35,7 @@
             menuStrip1 = new MenuStrip();
             aboutToolStripMenuItem = new ToolStripMenuItem();
             aboutDeveloperToolStripMenuItem = new ToolStripMenuItem();
-            button2 = new Button();
+            Pausebutton = new Button();
             button3 = new Button();
             checkBox1 = new CheckBox();
             domainUpDown1 = new DomainUpDown();
@@ -51,6 +51,7 @@
             Startbutton.TabIndex = 0;
             Startbutton.Text = "Start";
             Startbutton.UseVisualStyleBackColor = true;
+            Startbutton.Click += Startbutton_Click;
             // 
             // Temporizador
             // 
@@ -90,26 +91,29 @@
             aboutDeveloperToolStripMenuItem.Name = "aboutDeveloperToolStripMenuItem";
             aboutDeveloperToolStripMenuItem.Size = new Size(162, 22);
             aboutDeveloperToolStripMenuItem.Text = "About developer";
+            aboutDeveloperToolStripMenuItem.Click += aboutDeveloperToolStripMenuItem_Click;
             // 
-            // button2
+            // Pausebutton
             // 
-            button2.Anchor = AnchorStyles.None;
-            button2.Location = new Point(76, 126);
-            button2.Name = "button2";
-            button2.Size = new Size(47, 23);
-            button2.TabIndex = 3;
-            button2.Text = "Pause";
-            button2.UseVisualStyleBackColor = true;
+            Pausebutton.Anchor = AnchorStyles.None;
+            Pausebutton.Location = new Point(76, 126);
+            Pausebutton.Name = "Pausebutton";
+            Pausebutton.Size = new Size(47, 23);
+            Pausebutton.TabIndex = 3;
+            Pausebutton.Text = "Pause";
+            Pausebutton.UseVisualStyleBackColor = true;
+            Pausebutton.Click += Pausebutton_Click;
             // 
             // button3
             // 
             button3.Anchor = AnchorStyles.None;
             button3.Location = new Point(129, 126);
-            button3.Name = "button3";
+            button3.Name = "Stopbutton";
             button3.Size = new Size(47, 23);
             button3.TabIndex = 4;
             button3.Text = "Stop";
             button3.UseVisualStyleBackColor = true;
+            button3.Click += Stopbutton_Click;
             // 
             // checkBox1
             // 
@@ -139,7 +143,7 @@
             Controls.Add(domainUpDown1);
             Controls.Add(checkBox1);
             Controls.Add(button3);
-            Controls.Add(button2);
+            Controls.Add(Pausebutton);
             Controls.Add(Timerlabel);
             Controls.Add(Startbutton);
             Controls.Add(menuStrip1);
@@ -166,7 +170,7 @@
         private MenuStrip menuStrip1;
         private ToolStripMenuItem aboutToolStripMenuItem;
         private ToolStripMenuItem aboutDeveloperToolStripMenuItem;
-        private Button button2;
+        private Button Pausebutton;
         private Button button3;
         private CheckBox checkBox1;
         private DomainUpDown domainUpDown1;
