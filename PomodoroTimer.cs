@@ -26,17 +26,19 @@ namespace PomodoroTImer_CSharp
 
         private void Startbutton_Click(object sender, EventArgs e)
         {
-            if (TimerdomainUpDown.SelectedItem != null)
+            if (TimerdomainUpDown.SelectedItem == "" || TimerdomainUpDown.SelectedItem == null)
             {
-                string selectedTime = TimerdomainUpDown.SelectedItem.ToString();
-                string[] parts = selectedTime.Split(':');
-                timeLeft = int.Parse(parts[0]) * 60; // Convertir a segundos
-                Timerlabel.Text = $"{parts[0]}:00"; // Mostrar tiempo inicial
-                isRunning = true;
-                Temporizador.Start();
-                TimerdomainUpDown.Enabled = false;
-                Startbutton.Enabled = false;
+                MessageBox.Show("El tiempo establecido ha diso de 1:00 ");
+                TimerdomainUpDown.SelectedItem = "1:00"; 
             }
+            string selectedTime = TimerdomainUpDown.SelectedItem.ToString();
+            string[] parts = selectedTime.Split(':');
+            timeLeft = int.Parse(parts[0]) * 60; // Convertir a segundos
+            Timerlabel.Text = $"{parts[0]}:00"; // Mostrar tiempo inicial
+            isRunning = true;
+            Temporizador.Start();
+            TimerdomainUpDown.Enabled = false;
+            Startbutton.Enabled = false;
         }
 
         private void Temporizador_Tick(object sender, EventArgs e)
@@ -95,22 +97,6 @@ namespace PomodoroTImer_CSharp
             if (PomodorocheckBox.Checked)
             {
                 TimerdomainUpDown.SelectedItem = "45:00";
-            }
-        }
-
-        private void TimerdomainUpDown_SelectedItemChanged(object sender, EventArgs e)
-        {
-            if (TimerdomainUpDown.SelectedItem != null)
-            {
-                string selectedTime = TimerdomainUpDown.SelectedItem.ToString();
-                string[] parts = selectedTime.Split(':');
-                int selectedMinutes = int.Parse(parts[0]);
-
-                // Si el valor es menor a 1, restablecer a 1 minuto
-                if (selectedMinutes < 1)
-                {
-                    TimerdomainUpDown.SelectedItem = "01:00";
-                }
             }
         }
     }

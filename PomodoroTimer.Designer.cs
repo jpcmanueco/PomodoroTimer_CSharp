@@ -89,8 +89,8 @@
             // aboutDeveloperToolStripMenuItem
             // 
             aboutDeveloperToolStripMenuItem.Name = "aboutDeveloperToolStripMenuItem";
-            aboutDeveloperToolStripMenuItem.Size = new Size(162, 22);
-            aboutDeveloperToolStripMenuItem.Text = "About developer";
+            aboutDeveloperToolStripMenuItem.Size = new Size(180, 22);
+            aboutDeveloperToolStripMenuItem.Text = "Instructions";
             aboutDeveloperToolStripMenuItem.Click += aboutDeveloperToolStripMenuItem_Click;
             // 
             // Pausebutton
@@ -123,7 +123,7 @@
             PomodorocheckBox.Name = "PomodorocheckBox";
             PomodorocheckBox.Size = new Size(128, 19);
             PomodorocheckBox.TabIndex = 5;
-            PomodorocheckBox.Text = "Método Pomodoro";
+            PomodorocheckBox.Text = "Pomodoro Method";
             PomodorocheckBox.UseVisualStyleBackColor = true;
             PomodorocheckBox.CheckedChanged += PomodorocheckBox_CheckedChanged;
             // 
@@ -136,7 +136,6 @@
             TimerdomainUpDown.Size = new Size(60, 23);
             TimerdomainUpDown.TabIndex = 6;
             TimerdomainUpDown.Text = "timerSelect";
-            TimerdomainUpDown.SelectedItemChanged += TimerdomainUpDown_SelectedItemChanged;
             // 
             // PomodoroTimer
             // 
