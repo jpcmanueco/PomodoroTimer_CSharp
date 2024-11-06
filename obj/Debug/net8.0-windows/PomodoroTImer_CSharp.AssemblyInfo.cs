@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PomodoroTImer_CSharp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f46d279b3f3031e649aeae985ec2764294a54886")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5cc4fda949219db4b8f51f0451533cfb1278be17")]
 [assembly: System.Reflection.AssemblyProductAttribute("PomodoroTImer_CSharp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PomodoroTImer_CSharp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

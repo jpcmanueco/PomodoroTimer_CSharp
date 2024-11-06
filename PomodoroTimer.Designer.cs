@@ -37,8 +37,8 @@
             aboutDeveloperToolStripMenuItem = new ToolStripMenuItem();
             Pausebutton = new Button();
             button3 = new Button();
-            checkBox1 = new CheckBox();
-            domainUpDown1 = new DomainUpDown();
+            PomodorocheckBox = new CheckBox();
+            TimerdomainUpDown = new DomainUpDown();
             menuStrip1.SuspendLayout();
             SuspendLayout();
             // 
@@ -108,40 +108,42 @@
             // 
             button3.Anchor = AnchorStyles.None;
             button3.Location = new Point(129, 126);
-            button3.Name = "Stopbutton";
+            button3.Name = "button3";
             button3.Size = new Size(47, 23);
             button3.TabIndex = 4;
             button3.Text = "Stop";
             button3.UseVisualStyleBackColor = true;
             button3.Click += Stopbutton_Click;
             // 
-            // checkBox1
+            // PomodorocheckBox
             // 
-            checkBox1.Anchor = AnchorStyles.None;
-            checkBox1.AutoSize = true;
-            checkBox1.Location = new Point(56, 101);
-            checkBox1.Name = "checkBox1";
-            checkBox1.Size = new Size(83, 19);
-            checkBox1.TabIndex = 5;
-            checkBox1.Text = "checkBox1";
-            checkBox1.UseVisualStyleBackColor = true;
+            PomodorocheckBox.Anchor = AnchorStyles.None;
+            PomodorocheckBox.AutoSize = true;
+            PomodorocheckBox.Location = new Point(31, 101);
+            PomodorocheckBox.Name = "PomodorocheckBox";
+            PomodorocheckBox.Size = new Size(128, 19);
+            PomodorocheckBox.TabIndex = 5;
+            PomodorocheckBox.Text = "Método Pomodoro";
+            PomodorocheckBox.UseVisualStyleBackColor = true;
+            PomodorocheckBox.CheckedChanged += PomodorocheckBox_CheckedChanged;
             // 
-            // domainUpDown1
+            // TimerdomainUpDown
             // 
-            domainUpDown1.Anchor = AnchorStyles.None;
-            domainUpDown1.Items.Add("");
-            domainUpDown1.Location = new Point(10, 126);
-            domainUpDown1.Name = "domainUpDown1";
-            domainUpDown1.Size = new Size(60, 23);
-            domainUpDown1.TabIndex = 6;
-            domainUpDown1.Text = "timerSelect";
+            TimerdomainUpDown.Anchor = AnchorStyles.None;
+            TimerdomainUpDown.Items.Add("");
+            TimerdomainUpDown.Location = new Point(10, 126);
+            TimerdomainUpDown.Name = "TimerdomainUpDown";
+            TimerdomainUpDown.Size = new Size(60, 23);
+            TimerdomainUpDown.TabIndex = 6;
+            TimerdomainUpDown.Text = "timerSelect";
+            TimerdomainUpDown.SelectedItemChanged += TimerdomainUpDown_SelectedItemChanged;
             // 
             // PomodoroTimer
             // 
             AutoScaleMode = AutoScaleMode.None;
             ClientSize = new Size(184, 161);
-            Controls.Add(domainUpDown1);
-            Controls.Add(checkBox1);
+            Controls.Add(TimerdomainUpDown);
+            Controls.Add(PomodorocheckBox);
             Controls.Add(button3);
             Controls.Add(Pausebutton);
             Controls.Add(Timerlabel);
@@ -161,7 +163,6 @@
             ResumeLayout(false);
             PerformLayout();
         }
-
         #endregion
 
         private Button Startbutton;
@@ -172,7 +173,7 @@
         private ToolStripMenuItem aboutDeveloperToolStripMenuItem;
         private Button Pausebutton;
         private Button button3;
-        private CheckBox checkBox1;
-        private DomainUpDown domainUpDown1;
+        private CheckBox PomodorocheckBox;
+        private DomainUpDown TimerdomainUpDown;
     }
 }
